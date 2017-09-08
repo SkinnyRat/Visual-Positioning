@@ -13,6 +13,7 @@ Training model was saved to disk and loaded in the separate inference module. <b
 Inferences were drawn from 10 png images (that I made) loaded as NumPy arrays. 
 <hr />
 
+
 ### Hardware used here 
 ___Machine 1___ <br /> 
 CPU: Pentium G4400 <br /> 
@@ -23,8 +24,6 @@ ___Machine 2___ <br />
 CPU: Core i7 7700 <br /> 
 RAM: 32 GB DDR4 <br /> 
 GPU: 1x GTX 1080 Ti <br /> 
-
-In both cases, Ubuntu 16.04 LTS with Cuda 8.0 + cuDNN 5.1 + NCCL 2 + OpenCV 3.1 and gcc 5.3.1 was used. 
 <br /> 
 
 ### Benchmark results 
@@ -47,9 +46,14 @@ Training: Y s <br />
 Accuracy: Y % <br /> 
 <hr />
 
+
 ### URL sources 
 1. http://yann.lecun.com/exdb/lenet/ 
 2. https://github.com/caffe2/caffe2/blob/master/caffe2/python/tutorials/MNIST.ipynb 
 3. https://www.tensorflow.org/get_started/mnist/pros 
 4. https://stackoverflow.com/questions/tagged/deep-learning 
+
+In both cases, Ubuntu 16.04 LTS with Cuda 8.0 + cuDNN 5.1 + NCCL 2 + OpenCV 3.1 and gcc 5.3.1 was used. 
 <hr /> 
+
+
