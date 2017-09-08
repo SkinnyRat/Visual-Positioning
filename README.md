@@ -33,8 +33,8 @@ Training: X s <br />
 Accuracy: X % <br /> 
 
 Machine 2 <br /> 
-Training: Y s <br /> 
-Accuracy: Y % <br /> 
+Training: 91.68 s <br /> 
+Accuracy: 98.64 % <br /> 
 
 ___TensorFlow___ <br /> 
 Machine 1 <br /> 
@@ -42,8 +42,8 @@ Training: X s <br />
 Accuracy: X % <br /> 
 
 Machine 2 <br /> 
-Training: Y s <br /> 
-Accuracy: Y % <br /> 
+Training: 106.55 s <br /> 
+Accuracy: 99.32 % <br /> 
 <hr />
 
 
