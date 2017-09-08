@@ -29,8 +29,8 @@ GPU: 1x GTX 1080 Ti <br />
 ### Benchmark results 
 ___Caffe 2___ <br /> 
 Machine 1 <br /> 
-Training: X s <br /> 
-Accuracy: X % <br /> 
+Training: 267.68 s <br /> 
+Accuracy: 98.77 % <br /> 
 
 Machine 2 <br /> 
 Training: 91.68 s <br /> 
@@ -38,8 +38,8 @@ Accuracy: 98.64 % <br />
 
 ___TensorFlow___ <br /> 
 Machine 1 <br /> 
-Training: X s <br /> 
-Accuracy: X % <br /> 
+Training: 282.46 s <br /> 
+Accuracy: 99.31 % <br /> 
 
 Machine 2 <br /> 
 Training: 106.55 s <br /> 
