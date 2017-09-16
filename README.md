@@ -19,11 +19,13 @@ ___Machine 1___ <br />
 CPU: Pentium G4400 <br /> 
 RAM: 8GB DDR4 <br /> 
 GPU: 1x GTX 1050 <br /> 
+HDD: HGST 5400rpm <br /> 
 
 ___Machine 2___ <br /> 
 CPU: Core i7 7700 <br /> 
 RAM: 32 GB DDR4 <br /> 
 GPU: 1x GTX 1080 Ti <br /> 
+HDD: WD Blue 7200rpm <br /> 
 <br /> 
 
 ### Benchmark results 
