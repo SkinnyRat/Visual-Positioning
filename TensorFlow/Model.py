@@ -3,8 +3,8 @@ import numpy as   np
 import tensorflow as tf 
 
 tf.logging.set_verbosity(tf.logging.ERROR)
-gpuop = tf.GPUOptions(per_process_gpu_memory_fraction=0.64)
-sess  = tf.Session(config=tf.ConfigProto(gpu_options=gpuop))
+
+sess  = tf.Session(config=tf.ConfigProto(device_count = {'GPU': 0}))
 saver = tf.train.import_meta_graph('Plots/Saved_Model-2000.meta')
 saver.restore(sess, tf.train.latest_checkpoint('Plots/'))
 
