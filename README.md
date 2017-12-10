@@ -30,7 +30,7 @@ Accuracy: ??.?? % <br />
 ___Dual GPUs___ <br /> 
 Training: ??.?? s <br /> 
 Accuracy: ??.?? % <br /> 
-<hr /><hr /> 
+<hr /><hr /><br /> 
 
 
 # Benchmark-MNIST
