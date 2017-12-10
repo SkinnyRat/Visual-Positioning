@@ -3,7 +3,7 @@ Benchmarking tests on the CIFAR-10 model for the 32x32 ImageNet dataset using Te
 
 
 ### ImageNet and CIFAR10 
-The CIFAR-10 structure used consists of 2 convolution+pooling layers and 1 fully-connected layer. <br/> 
+The CIFAR-10 model consists of 2x convolution+pooling+normalization layers and 2x fully-connected layers. <br/> 
 The ResNet-50/101/152 models are not used for this set of benchmarking tests, not is Caffe2. 
 
 ### Workflow used here 
@@ -24,12 +24,12 @@ HDD: WD Blue 7200rpm <br />
 
 ### Benchmark results 
 ___Single GPU___ <br /> 
-Training: 91.68 s <br /> 
-Accuracy: 98.64 % <br /> 
+Training: ??.?? s <br /> 
+Accuracy: ??.?? % <br /> 
 
 ___Dual GPUs___ <br /> 
-Training: 106.55 s <br /> 
-Accuracy: 99.32 % <br /> 
+Training: ??.?? s <br /> 
+Accuracy: ??.?? % <br /> 
 <hr /><hr /> 
 
 
@@ -85,17 +85,15 @@ Accuracy: 99.32 % <br />
 
 
 ### URL sources 
-1. http://image-net.org/download-images 
-2. https://patrykchrabaszcz.github.io/Imagenet32/ 
-3. https://www.cs.toronto.edu/~kriz/cifar.html 
-4. https://www.tensorflow.org/tutorials/deep_cnn 
-
-5. http://yann.lecun.com/exdb/lenet/ 
-6. https://github.com/caffe2/caffe2/blob/master/caffe2/python/tutorials/MNIST.ipynb 
-7. https://www.tensorflow.org/get_started/mnist/pros 
-8. https://stackoverflow.com/questions/tagged/deep-learning 
+1. http://image-net.org/download-images <br /> 
+2. https://patrykchrabaszcz.github.io/Imagenet32/ <br /> 
+3. https://www.cs.toronto.edu/~kriz/cifar.html <br /> 
+4. https://www.tensorflow.org/tutorials/deep_cnn <br /> <br /> 
+5. http://yann.lecun.com/exdb/lenet/ <br /> 
+6. https://github.com/caffe2/caffe2/blob/master/caffe2/python/tutorials/MNIST.ipynb <br /> 
+7. https://www.tensorflow.org/get_started/mnist/pros <br /> 
+8. https://stackoverflow.com/questions/tagged/deep-learning <br /> 
 
 In both cases, Ubuntu 16.04 LTS with Cuda 8.0 + cuDNN 5.1 + NCCL 2 + OpenCV 3.1 and gcc 5.3.1 was used. 
 <hr /> 
-
 
