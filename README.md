@@ -79,7 +79,7 @@ Accuracy: 99.31 % <br />
 Machine 2 <br /> 
 Training: 106.55 s <br /> 
 Accuracy: 99.32 % <br /> 
-<hr /><hr /> 
+<hr /><hr /><br/>  
 
 ## URL sources 
 1. http://image-net.org/download-images <br /> 
