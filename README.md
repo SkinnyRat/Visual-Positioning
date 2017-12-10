@@ -4,13 +4,13 @@ Benchmarking tests on the CIFAR-10 model for the 32x32 ImageNet dataset using Te
 
 ### ImageNet and CIFAR10 
 The CIFAR-10 model consists of 2x convolution+pooling+normalization layers and 2x fully-connected layers. <br/> 
-The ResNet-50/101/152 models are not used for this set of benchmarking tests, not is Caffe2. 
+The ResNet-50/101/152 models are not used for this set of benchmarking tests, nor is Caffe2. 
 
 ### Workflow used here 
 Training was performed using SGD with 64 images per batch over 1,000,000 iterations per GPU. <br /> 
 Training was performed on 1 GPU and then repeated on 2 GPUs. <br /> 
 Accuracy was evaluated against 64 images per batch over 1000 iterations on the CPU. <br /> 
-Predictions were made against single PNG images downloaded from the Web. 
+Predictions were then tested against single PNG images downloaded from the Web. 
 <hr />
 
 
