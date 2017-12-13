@@ -1,16 +1,16 @@
 # Benchmark-ImageNet 
-Benchmarking tests on the CIFAR-10 model for the 32x32 ImageNet dataset using TensorFlow. <br /> 
+Benchmarking tests on the CIFAR model for the 32x32 ImageNet dataset using TensorFlow. <br /> 
 Caffe2 was not used here, while CNTK is being considered for future benchmarks. 
 
 ### ImageNet and CIFAR10 
-The CIFAR-10 model consists of 2x convolution+pooling+normalization layers and 2x fully-connected layers. <br /> 
-The ImageNet dataset contains 1.28 million training images in 1000 categories.<br /> 
-The ResNet-50/101/152 models are not used for this set of benchmarking tests. 
+The CIFAR model contains 2x convolution+pooling+normalization layers and 2x fully-connected layers. <br /> 
+The ImageNet dataset contains 1.28 million training images in 1000 categories. <br /> 
+The ResNet-50/101/152 models are also being considered for future benchmarks. 
 
 ### Workflow used here 
 Training was performed using SGD with 64 images per batch over 1,000,000 iterations per GPU. <br /> 
 Training was performed on 1 GPU and then repeated on 2 GPUs. <br /> 
-Accuracy was evaluated against 64 images per batch over 1000 iterations on the CPU. <br /> 
+Accuracy was evaluated against 64 images per batch over 1,000 iterations on the CPU. <br /> 
 Predictions were then tested against single PNG images downloaded from the Web. 
 <hr />
 
@@ -18,16 +18,16 @@ Predictions were then tested against single PNG images downloaded from the Web.
 ___Machine___ <br /> 
 CPU: Core i7 7700 <br /> 
 RAM: 32 GB DDR4 <br /> 
-GPU: 2x GTX 1080 Ti <br /> 
+GPU: 2x MSI Gaming X <br /> 
 HDD: WD Blue 7200rpm <br /> 
 <br /> 
 
 ### Benchmark results 
-___Single GPU___ <br /> 
+___Single GTX 1080 Ti GPU___ <br /> 
 Training: ??.?? s <br /> 
 Accuracy: ??.?? % <br /> 
 
-___Dual GPUs___ <br /> 
+___Dual GTX 1080 Ti GPUs___ <br /> 
 Training: ??.?? s <br /> 
 Accuracy: ??.?? % <br /> 
 <hr /><hr /><br /> 
