@@ -16,10 +16,10 @@ Predictions were then tested against single PNG images downloaded from the Web.
 
 ### Hardware used here 
 ___Machine___ <br /> 
-CPU: Core i7 7700 <br /> 
-RAM: 32 GB DDR4 <br /> 
+CPU: Intel Core i7 7700 <br /> 
+RAM: G.Skill 32 GB DDR4 <br /> 
 GPU: 2x MSI Gaming X <br /> 
-HDD: WD Blue 7200rpm <br /> 
+HDD: 1TB WD Blue 7200rpm <br /> 
 <br /> 
 
 ### Benchmark results 
