@@ -5,7 +5,7 @@ Caffe2 was not used here, while CNTK is being considered for future benchmarks.
 ### ImageNet and CIFAR10 
 The CIFAR model contains 2x convolution+pooling+normalization layers and 2x fully-connected layers. <br /> 
 The ImageNet dataset contains 1.28 million training images in 1,000 categories. <br /> 
-The ResNet-50/101/152 models are also being considered for future benchmarks. 
+The ResNet-50/101/152 models are currently being considered for future benchmarks. 
 
 ### Workflow used here 
 Training was performed using SGD with 64 images per batch over 1,000,000 iterations per GPU. <br /> 
@@ -24,12 +24,12 @@ HDD: 1TB WD Blue 7200rpm <br />
 
 ### Benchmark results 
 ___Single GTX 1080 Ti GPU___ <br /> 
-Training: ??.?? s <br /> 
-Accuracy: ??.?? % <br /> 
+Training: 1h 59m 02s <br /> 
+Accuracy: 54.80 % <br /> 
 
 ___Dual GTX 1080 Ti GPUs___ <br /> 
-Training: ??.?? s <br /> 
-Accuracy: ??.?? % <br /> 
+Training: 3h 18m 34s <br /> 
+Accuracy: 56.70 % <br /> 
 <hr /><hr /><br /> 
 
 
