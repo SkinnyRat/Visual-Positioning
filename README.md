@@ -5,7 +5,7 @@ Caffe2 was not used here, while CNTK is being considered for future benchmarks.
 ### ImageNet and CIFAR10 
 The CIFAR model contains 2x convolution+pooling+normalization layers and 2x fully-connected layers. <br /> 
 The ImageNet dataset contains 1.28 million training images in 1,000 categories. <br /> 
-The ResNet-50/101/152 models are currently being considered for future benchmarks. 
+The ResNet-50/101/152 models are currently being evaluated for future benchmarks. 
 
 ### Workflow used here 
 Training was performed using SGD with 64 images per batch over 1,000,000 iterations per GPU. <br /> 
