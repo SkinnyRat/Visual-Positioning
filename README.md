@@ -15,7 +15,14 @@ Predictions were then tested against single PNG images downloaded from the Web.
 <hr />
 
 ### Hardware used here 
-___Machine___ <br /> 
+___Machine 1___ <br /> 
+CPU: Intel Core i3 7100 <br /> 
+RAM: Kingston 8 GB DDR4 <br /> 
+GPU: MSI GTX 1060 6 GB Armor <br /> 
+HDD: 500 MB Toshiba 5200rpm <br /> 
+<br /> 
+
+___Machine 2___ <br /> 
 CPU: Intel Core i7 7700 <br /> 
 RAM: G.Skill 32 GB DDR4 <br /> 
 GPU: 2x MSI Gaming X <br /> 
@@ -23,11 +30,15 @@ HDD: 1TB WD Blue 7200rpm <br />
 <br /> 
 
 ### Benchmark results 
-___Single GTX 1080 Ti GPU___ <br /> 
+___Machine 1___ <br /> 
+Training: xh xxm xxs <br /> 
+Accuracy: xx.xx % <br /> 
+
+___Machine 2, 1x GTX 1080 Ti___ <br /> 
 Training: 1h 59m 02s <br /> 
 Accuracy: 54.80 % <br /> 
 
-___Dual GTX 1080 Ti GPUs___ <br /> 
+___Machine 2, 2x GTX 1080 Ti___ <br /> 
 Training: 3h 18m 34s <br /> 
 Accuracy: 56.70 % <br /> 
 <hr /><hr /><br /> 
@@ -93,3 +104,4 @@ Accuracy: 99.32 % <br />
 
 In both cases, Ubuntu 16.04 LTS with Cuda 8.0 + cuDNN 5.1 + NCCL 2 + OpenCV 3.1 and gcc 5.3.1 was used. 
 <hr /> 
+
