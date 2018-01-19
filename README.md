@@ -19,7 +19,7 @@ ___Machine 1___ <br />
 CPU: Intel Core i3 7100 <br /> 
 RAM: Kingston 8 GB DDR4 <br /> 
 GPU: MSI GTX 1060 6 GB Armor <br /> 
-HDD: 500 MB Toshiba 5200rpm <br /> 
+HDD: 500 MB HGST 5200rpm <br /> 
 <br /> 
 
 ___Machine 2___ <br /> 
@@ -30,15 +30,15 @@ HDD: 1TB WD Blue 7200rpm <br />
 <br /> 
 
 ### Benchmark results 
-___Machine 1___ <br /> 
+___Machine 1, with 1x GTX 1060___ <br /> 
 Training: xh xxm xxs <br /> 
 Accuracy: xx.xx % <br /> 
 
-___Machine 2, 1x GTX 1080 Ti___ <br /> 
+___Machine 2, with 1x GTX 1080 Ti___ <br /> 
 Training: 1h 59m 02s <br /> 
 Accuracy: 54.80 % <br /> 
 
-___Machine 2, 2x GTX 1080 Ti___ <br /> 
+___Machine 2, with 2x GTX 1080 Ti___ <br /> 
 Training: 3h 18m 34s <br /> 
 Accuracy: 56.70 % <br /> 
 <hr /><hr /><br /> 
