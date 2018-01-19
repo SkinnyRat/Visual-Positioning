@@ -19,7 +19,7 @@ ___Machine 1___ <br />
 CPU: Intel Core i3 7100 <br /> 
 RAM: Kingston 8 GB DDR4 <br /> 
 GPU: MSI GTX 1060 6 GB Armor <br /> 
-HDD: 500 MB HGST 5200rpm <br /> 
+HDD: 500 MB HGST 5400rpm <br /> 
 <br /> 
 
 ___Machine 2___ <br /> 
