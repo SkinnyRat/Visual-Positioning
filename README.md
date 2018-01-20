@@ -31,8 +31,8 @@ HDD: 1TB WD Blue 7200rpm <br />
 
 ### Benchmark results 
 ___Machine 1, with 1x GTX 1060___ <br /> 
-Training: xh xxm xxs <br /> 
-Accuracy: xx.xx % <br /> 
+Training: 4h 19m 10s <br /> 
+Accuracy: 57.90 % <br /> 
 
 ___Machine 2, with 1x GTX 1080 Ti___ <br /> 
 Training: 1h 59m 02s <br /> 
