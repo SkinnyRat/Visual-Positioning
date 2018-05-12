@@ -1,5 +1,0 @@
-Use Save.py to save NumPy images data to binary files. 
-Labels            =>    "LABELS" 
-Training data     =>    "Training%d.bin" 
-Validation data   =>    "Validation.bin" 
-
