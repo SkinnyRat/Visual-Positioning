@@ -16,9 +16,9 @@ With that, the smartphone can estimate its distance to the relevant environmenta
 
 Useful Links: 
 
-Intel RealSense https://github.com/IntelRealSense/librealsense/wiki 
-OpenCV with iOS https://medium.com/pharos-production/using-opencv-in-a-swift-project-679868e1b798 
-OpenCV with iOS https://medium.com/@dwayneforde/image-recognition-on-ios-with-swift-and-opencv-b5cf0667b79 
+Intel RealSense https://github.com/IntelRealSense/librealsense/wiki <br/>
+OpenCV with iOS https://medium.com/pharos-production/using-opencv-in-a-swift-project-679868e1b798 <br/>
+OpenCV with iOS https://medium.com/@dwayneforde/image-recognition-on-ios-with-swift-and-opencv-b5cf0667b79 <br/>
 OpenCV with iOS https://medium.com/@yiweini/opencv-with-swift-step-by-step-c3cc1d1ee5f1 
 
 --- 
