@@ -12,9 +12,9 @@ First, a location is mapped beforehand by taking photos of distinctive features 
 Second, on the smartphone feature-matching is applied using the AKaze algorithm (since SIFT is patented) between the reference photos taken above and the live camera feed. Then, pose-estimation is applied by feeding the matched 3D world coordinates from earlier. 
 
 With that, the smartphone can estimate its distance to the relevant environmental features, and hence estimate its location. 
-<br/> 
 
-Useful Links: 
+
+ <br/>Useful Links: 
 
 Intel RealSense https://github.com/IntelRealSense/librealsense/wiki <br/>
 OpenCV with iOS https://medium.com/pharos-production/using-opencv-in-a-swift-project-679868e1b798 <br/>
