@@ -1,4 +1,4 @@
-# Computer Vision stuff 
+# Using computer vision for positioning 
 
 Most smartphones can use GPS or Wifi for estimating their location, here an alternative method of using 
 computer vision for indoor & outdoor positioning is studied. 
