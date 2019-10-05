@@ -11,7 +11,7 @@ First, a location is mapped beforehand by taking photos of distinctive features 
 
 Second, on the smartphone feature-matching is applied using the AKaze algorithm (since SIFT is patented) between the reference photos taken above and the live camera feed. Then, pose-estimation is applied by feeding the matched 3D world coordinates from earlier. 
 
-With that, the smartphone can estimate its distance to the relevant environmental features, and hence estimate its location. 
+With that, the smartphone can estimate its distance to the relevant environmental features, and hence estimate its location. <br/>
 
 
 Useful Links: 
