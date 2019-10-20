@@ -51,7 +51,7 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>laoahpek.azurewebsites.net</key>
+			<key>www.insertwebsite.here</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
