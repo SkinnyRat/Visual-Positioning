@@ -1,13 +1,15 @@
 ### Usage 
 
-Build Scan.cpp and connect an Intel RealSense D415 depth camera or similar, then run Scan.exe to capture photos & depth data. 
-Next use App.py to check if the data captured is satisfactory, and upload to the cloud. 
+Create iOS project in Xcode the way Apple wants it, then download the OpenCV framework for iOS from:  
+https://opencv.org/releases/  
+
+Note: can be quite taxing for the iPhone to run this app for prolonged periods. 
 <hr/> 
 
 ### Dependencies 
 
-- Intel RealSense 
-- OpenCV 4.0.1 
-- OpenGL (GLFW) 
+- Objective-C bridging headers for Swift (included) 
+- OpenCV iOS framework v4.0.1 
 
-Some code from Header.hpp taken from RealSense sample code. 
+Permissions needed for the Camera & NSAppTransportSecurity (if retrieving data from non-HTTPs services). 
+
