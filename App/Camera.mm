@@ -14,20 +14,6 @@
 template<typename Out> void Split(const std::string & s, char delim, Out result);
 std::vector<std::string>    Split(const std::string & s, char delim);
 
-/*
- Done:
- - Akaze detection.
- - Reference image.
- - Depth map.
- - Save images.
- - Calibration.
- - Pose computation.
- 
- Next:
- - Cloud Service!!!
- - Real-life Trials!!!
- */
-
 
 @interface Camera()<CvVideoCameraDelegate>
 @end
@@ -63,7 +49,7 @@ std::vector<std::string>    Split(const std::string & s, char delim);
     videoCamera.delegate                            = self;
     
     //UIImage * tplImg  = [UIImage imageNamed:@"Reference"];
-    NSData  * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://laoahpek.azurewebsites.net/ReferenceFrame.jpg"]];
+    NSData  * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://insert.url.here"]];
     UIImage * yucks = [UIImage imageWithData: imageData];
     NSLog(@"Downloaded JPG  = %f %f", yucks.size.height, yucks.size.width);
     cv::Mat temp;
@@ -77,7 +63,7 @@ std::vector<std::string>    Split(const std::string & s, char delim);
     
     //NSString * path   = [[NSBundle mainBundle] pathForResource:@"Coords" ofType:@"txt"];
     //NSString * coords = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-    NSURL    * url    = [NSURL URLWithString:@"http://laoahpek.azurewebsites.net/DepthMapData.dat"];
+    NSURL    * url    = [NSURL URLWithString:@"http://insert.url.here"];
     NSError  * error  = nil;
     NSString * coords = [[NSString alloc] initWithContentsOfURL: url encoding: NSUTF8StringEncoding error: &error];
     std::string rawcd = std::string([coords UTF8String]);
@@ -93,6 +79,7 @@ std::vector<std::string>    Split(const std::string & s, char delim);
     BCount = (*btnPressed);
     return self;
 }
+
 
 - (void)processImage:(cv::Mat &)img
 {
@@ -201,6 +188,7 @@ std::vector<std::string> Split(const std::string & s, char delim)
     Split(s, delim, std::back_inserter(elems));
     return elems;
 }
+
 
 
 
