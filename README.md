@@ -13,7 +13,7 @@ First, a location is mapped beforehand by taking photos of distinctive features 
 <img src="https://user-images.githubusercontent.com/13679090/68001325-949f2200-fc9e-11e9-966f-862958a0b334.png" width="720">
 <i>Above: sample photos taken at a playground with corresponding depth data on the right.</i><br/><br/><br/>  
 
-Second, on the smartphone feature-matching is applied using the AKaze algorithm (since SIFT is patented) between the reference photos taken above and the live camera feed. Then, pose-estimation is applied by feeding the matched 3D world coordinates from earlier. 
+Second, on the smartphone, feature-matching is applied using the AKaze algorithm (since SIFT is patented) between the reference photos taken above and the live camera feed. Then, pose-estimation is applied by feeding the matched 3D world coordinates from earlier. 
 
 With that, the smartphone can estimate its distance to the relevant environmental features, and hence estimate its location. 
 
@@ -25,11 +25,11 @@ With that, the smartphone can estimate its distance to the relevant environmenta
 
 <strong>Limitations</strong>  
 
-- a 
-- b 
-- c 
+- the biggest drawback is that the features identified in the smartphone feed could be matched to the wrong features in the reference photos, causing the pose to be computed from the wrong world coordinates and in turn causing poor location accuracy. 
+- one alternative would be to match homographies instead of points individually, however this constrains the features mappable to only flat surfaces. 
+- another alternative would be to match patterns connecting the points instead of points individually, however at this time an algorithm for generating matchable patterns of points isn't known to be available yet. 
 
-Overall, while there might be promising improvements to this localization method, the emergence of smartphones with multiple back cameras that could be used for live depth mapping (& thus SLAM) as well as better augmented reality features shipped with mobile OSes could eventually prove to be more useful for visual positioning, especially for visually-impaired users.  
+Overall, while there might be promising improvements to this localization method, the emergence of newer smartphones with multiple back cameras that could be used for live depth mapping (& thus SLAM) as well as better augmented reality features shipped with mobile OSes could eventually prove to be more useful for visual positioning, especially for visually-impaired users.  
 
  <br/>Useful Links: 
 
