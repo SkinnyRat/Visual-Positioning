@@ -23,7 +23,7 @@ With that, the smartphone can estimate its distance to the relevant environmenta
 
 <hr/> 
 
-**Limitations 
+<strong>Limitations</strong>  
 
 Brief summary here. 
 
