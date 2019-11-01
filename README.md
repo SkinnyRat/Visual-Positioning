@@ -19,7 +19,7 @@ With that, the smartphone can estimate its distance to the relevant environmenta
 ![Phone1](https://user-images.githubusercontent.com/13679090/68001326-949f2200-fc9e-11e9-9f54-e6c56448231a.png)
 ![Phone2](https://user-images.githubusercontent.com/13679090/68001327-9537b880-fc9e-11e9-8db3-9d016cfda939.png)
 
-* Limitations * 
+**Limitations** 
 
 Brief summary here. 
 
