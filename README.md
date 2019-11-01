@@ -11,7 +11,7 @@ First, a location is mapped beforehand by taking photos of distinctive features 
 
 <img src="https://user-images.githubusercontent.com/13679090/68001324-949f2200-fc9e-11e9-8e00-c160ec93465b.png" width="720"> 
 <img src="https://user-images.githubusercontent.com/13679090/68001325-949f2200-fc9e-11e9-966f-862958a0b334.png" width="720">
-<i>Caption goes here.</i><br/><br/><br/>  
+<i>Above: sample photos taken at a playground with corresponding depth data on the right.</i><br/><br/><br/>  
 
 Second, on the smartphone feature-matching is applied using the AKaze algorithm (since SIFT is patented) between the reference photos taken above and the live camera feed. Then, pose-estimation is applied by feeding the matched 3D world coordinates from earlier. 
 
@@ -19,13 +19,17 @@ With that, the smartphone can estimate its distance to the relevant environmenta
 
 <img src="https://user-images.githubusercontent.com/13679090/68001326-949f2200-fc9e-11e9-9f54-e6c56448231a.png" width="640"> 
 <img src="https://user-images.githubusercontent.com/13679090/68001327-9537b880-fc9e-11e9-8db3-9d016cfda939.png" width="640">
-<i>Caption goes here.</i><br/><br/>  
+<i>Above: screenshots on iPhone app showing features matched to the reference photos & distances to the objects estimated.</i><br/><br/>  
 
 <hr/> 
 
 <strong>Limitations</strong>  
 
-Brief summary here. 
+- a 
+- b 
+- c 
+
+Overall, while there might be promising improvements to this localization method, the emergence of smartphones with multiple back cameras that could be used for live depth mapping (& thus SLAM) as well as better augmented reality features shipped with mobile OSes could eventually prove to be more useful for visual positioning, especially for visually-impaired users.  
 
  <br/>Useful Links: 
 
