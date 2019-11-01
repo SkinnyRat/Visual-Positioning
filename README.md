@@ -9,15 +9,15 @@ computer vision for indoor & outdoor positioning is studied.
 
 First, a location is mapped beforehand by taking photos of distinctive features in the environment and by capturing 3D depth data using an Intel RealSense camera. The features found in the photos are then tagged with their 3D world coordinates. 
 
-![Reference1](https://user-images.githubusercontent.com/13679090/68001324-949f2200-fc9e-11e9-8e00-c160ec93465b.png)
-![Reference2](https://user-images.githubusercontent.com/13679090/68001325-949f2200-fc9e-11e9-966f-862958a0b334.png)
+<img src="https://user-images.githubusercontent.com/13679090/68001324-949f2200-fc9e-11e9-8e00-c160ec93465b.png" width="960"> 
+<img src="https://user-images.githubusercontent.com/13679090/68001325-949f2200-fc9e-11e9-966f-862958a0b334.png" width="960"> 
 
 Second, on the smartphone feature-matching is applied using the AKaze algorithm (since SIFT is patented) between the reference photos taken above and the live camera feed. Then, pose-estimation is applied by feeding the matched 3D world coordinates from earlier. 
 
 With that, the smartphone can estimate its distance to the relevant environmental features, and hence estimate its location. 
 
-![Phone1](https://user-images.githubusercontent.com/13679090/68001326-949f2200-fc9e-11e9-9f54-e6c56448231a.png)
-![Phone2](https://user-images.githubusercontent.com/13679090/68001327-9537b880-fc9e-11e9-8db3-9d016cfda939.png)
+<img src="https://user-images.githubusercontent.com/13679090/68001326-949f2200-fc9e-11e9-9f54-e6c56448231a.png" width="640"> 
+<img src="https://user-images.githubusercontent.com/13679090/68001327-9537b880-fc9e-11e9-8db3-9d016cfda939.png" width="640"> 
 
 **Limitations** 
 
